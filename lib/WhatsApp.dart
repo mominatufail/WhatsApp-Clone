@@ -177,7 +177,7 @@ class ExpandedClass extends StatelessWidget {
         Expanded(
           flex: 10,
           child:Container(
-              color: Colors.blue
+              color: Colors.green
           ),
         ),
       ]),
