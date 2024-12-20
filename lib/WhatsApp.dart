@@ -47,10 +47,10 @@ class ExpandedClass extends StatelessWidget {
     '1',
     '7',
     '3',
-    '9',
+    '3',
     '9',
     '6',
-    '8'
+    '2'
   ];
   List Date=[
     '8:15 AM',
