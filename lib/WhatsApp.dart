@@ -44,6 +44,18 @@ class ExpandedClass extends StatelessWidget {
     '6',
     '8'
   ];
+  List Date=[
+    '8:15 AM',
+    '10:45 AM',
+    '11:30 AM',
+    '12:00 PM',
+    '1:00 PM',
+    '1:00 PM',
+    '2:00 PM',
+    '2:45 PM',
+    '5:00 PM',
+    '8:45 PM'
+  ];
 
 
   @override
@@ -74,15 +86,34 @@ class ExpandedClass extends StatelessWidget {
                         backgroundColor: Colors.green),
                       title: Text(SenderNames[index]),
                       subtitle: Text(lastMessages[index]),
-                      trailing: CircleAvatar(
-                          backgroundColor: Colors.green, radius: 10,
-                        child: Text(MessageCircle[index],
-                          style: TextStyle(color: Colors.white),))
+                      trailing: Column(
+                        children: [
+                          Text(Date[index]),
+                          //SizedBox(height: 5,),
+                          CircleAvatar(
+                              backgroundColor: Colors.green, radius: 10,
+                              child: Text(MessageCircle[index],
+                                style: TextStyle(color: Colors.white),)),
+
+
+                        ],)
+
+
+
+
+                      // Text('8:00 AM'),
+                      // Column(
+                      //   children: [
+                      //     CircleAvatar(
+                      //         backgroundColor: Colors.green, radius: 10,
+                      //       child: Text(MessageCircle[index],
+                      //         style: TextStyle(color: Colors.white),)),
+
+                      )
                       //Text('8:00 AM'),
 
 
 
-                  ),);
 
 
 
@@ -92,8 +123,9 @@ class ExpandedClass extends StatelessWidget {
 
 
 
-                    return CircleAvatar(
-                      child: Text('${index+1}'), //index is in int but we have to convrt it in string
+
+                    //return CircleAvatar(
+                      //child: Text('${index+1}'), //index is in int but we have to convrt it in string
                       //child:index.toString()),
                     );
 
