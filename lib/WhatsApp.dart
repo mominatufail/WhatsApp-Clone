@@ -27,11 +27,12 @@ class ExpandedClass extends StatelessWidget {
     'Assignment karli?',
     'Ok Fat Dr.'
   ];
-  // List userImage=[
-  //   'assets/Mama.jpg',
-  //   '',
-  //
-  //  ];
+  List userImage=[
+    'assets/1.jpg',
+    'assets/Mama.jpg',
+    '',
+
+   ];
   List MessageCircle=[
     '2',
     '4',
@@ -82,7 +83,7 @@ class ExpandedClass extends StatelessWidget {
                   { return Card(
                     child: ListTile(
                     leading: CircleAvatar(
-                      //backgroundImage: AssetImage(userImage[index]),
+                      backgroundImage: AssetImage(userImage[index]),
                         backgroundColor: Colors.green),
                       title: Text(SenderNames[index]),
                       subtitle: Text(lastMessages[index]),
@@ -111,16 +112,6 @@ class ExpandedClass extends StatelessWidget {
 
                       )
                       //Text('8:00 AM'),
-
-
-
-
-
-
-
-
-
-
 
 
 
