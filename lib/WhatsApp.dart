@@ -16,7 +16,7 @@ class ExpandedClass extends StatelessWidget {
 
   ];
   List lastMessages=[
-    'AOA. Kesi hain ap', //0
+    'Love you mom!', //0
     "How's Effu Baby?", //1
     'Ok!!', //2
     'Parhai kar lo',
@@ -37,9 +37,8 @@ class ExpandedClass extends StatelessWidget {
     'assets/arttt.jpg',
     'assets/8.jpeg',
     'assets/9.png',
-    'assets/Mama.jpg'
-    'assets/dr.jpeg'
-    
+    'assets/drrrr.jpeg'
+
    ];
   List MessageCircle=[
     '2',
