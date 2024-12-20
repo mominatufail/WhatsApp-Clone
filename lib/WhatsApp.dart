@@ -16,16 +16,33 @@ class ExpandedClass extends StatelessWidget {
 
   ];
   List lastMessages=[
-    '', //0
-    '3', //1
-    '4', //2
-    '5',
-    '5'
+    'AOA. Kesi hain ap', //0
+    "How's Effu Baby?", //1
+    'Ok!!', //2
+    'Parhai kar lo',
+    'Congratulations',
+    'Kesi ho? ghar main sb kesay hain?',
+    'Tabiyat kesi hy?',
+    'Send Haider',
+    'Assignment karli?',
+    'Ok Fat Dr.'
   ];
-  List userImage=[
-    '',
-    ','
-        ''
+  // List userImage=[
+  //   'assets/Mama.jpg',
+  //   '',
+  //
+  //  ];
+  List MessageCircle=[
+    '2',
+    '4',
+    '1',
+    '1',
+    '7',
+    '3',
+    '9',
+    '9',
+    '6',
+    '8'
   ];
 
 
@@ -46,19 +63,35 @@ class ExpandedClass extends StatelessWidget {
         Expanded(
             flex: 80,
             child:Container(
-              color: Colors.red,
+              color: Colors.white,
               child: ListView.builder(
                   itemCount: SenderNames.length,
                   itemBuilder: (context,index)
                   { return Card(
                     child: ListTile(
                     leading: CircleAvatar(
-                      backgroundImage: AssetImage(userImage[index]),
+                      //backgroundImage: AssetImage(userImage[index]),
                         backgroundColor: Colors.green),
                       title: Text(SenderNames[index]),
                       subtitle: Text(lastMessages[index]),
-                      trailing: Text('8:00 AM'),
+                      trailing: CircleAvatar(
+                          backgroundColor: Colors.green, radius: 10,
+                        child: Text(MessageCircle[index],
+                          style: TextStyle(color: Colors.white),))
+                      //Text('8:00 AM'),
+
+
+
                   ),);
+
+
+
+
+
+
+
+
+
                     return CircleAvatar(
                       child: Text('${index+1}'), //index is in int but we have to convrt it in string
                       //child:index.toString()),
