@@ -54,9 +54,9 @@ class ExpandedClass extends StatelessWidget {
   ];
   List Date=[
     '8:15 AM',
-    '10:45 AM',
-    '11:30 AM',
-    '12:00 PM',
+    '8:30 AM',
+    '9:45 AM',
+    '9:50 PM',
     '1:00 PM',
     '1:00 PM',
     '2:00 PM',
@@ -77,7 +77,7 @@ class ExpandedClass extends StatelessWidget {
         Expanded(
           flex: 10,
           child:Container(
-            color: Colors.green,
+            color: Colors.lightGreenAccent.shade400,
           ),),
         //   //---scnd Expanded used for chats
         Expanded(
@@ -99,14 +99,11 @@ class ExpandedClass extends StatelessWidget {
                           Text(Date[index]),
                           //SizedBox(height: 5,),
                           CircleAvatar(
-                              backgroundColor: Colors.green, radius: 10,
+                              backgroundColor: Colors.green, radius: 9,
                               child: Text(MessageCircle[index],
-                                style: TextStyle(color: Colors.white),)),
-
+                                style: TextStyle(fontSize:11.5,color: Colors.white),)),
 
                         ],)
-
-
 
 
                       // Text('8:00 AM'),
