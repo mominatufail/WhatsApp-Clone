@@ -73,7 +73,7 @@ class ExpandedClass extends StatelessWidget {
         title: Text('Expanded Widget'),
       ),
       body: Column(children: [
-        //---First Expanded used for
+        //---First Expanded used for top
         Expanded(
           flex: 10,
           child:Container(
@@ -97,7 +97,7 @@ class ExpandedClass extends StatelessWidget {
                       trailing: Column(
                         children: [
                           Text(Date[index]),
-                          //SizedBox(height: 5,),
+                          SizedBox(height:6),
                           CircleAvatar(
                               backgroundColor: Colors.green, radius: 9,
                               child: Text(MessageCircle[index],
