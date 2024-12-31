@@ -16,7 +16,7 @@ class ExpandedClass extends StatelessWidget {
 
   ];
   List lastMessages=[
-    'Love you mom!', //0
+    'hy mom', //0
     "How's Effu Baby?", //1
     'Ok!!', //2
     'Parhai kar lo',
