@@ -24,7 +24,7 @@ class ExpandedClass extends StatelessWidget {
     'Kesi ho? ghar main sb kesay hain?',
     'Tabiyat kesi hy?',
     'Send Haider',
-    'Assignment karli????',
+    'Assignment karli?',
     'Ok Fat Dr.'
   ];
   List userImage=[
