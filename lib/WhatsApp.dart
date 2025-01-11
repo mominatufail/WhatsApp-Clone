@@ -37,8 +37,8 @@ class ExpandedClass extends StatelessWidget {
     'assets/8.jpeg',
     'assets/9.png',
     'assets/drrrr.jpeg'
-
    ];
+  
   List MessageCircle=[
     '2',
     '4',
