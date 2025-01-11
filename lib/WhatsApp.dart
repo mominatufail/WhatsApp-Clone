@@ -13,7 +13,6 @@ class ExpandedClass extends StatelessWidget {
     'Jia Baji',  //7
     'Mahnoor Dart',
     'Muhammad Ahmad'
-
   ];
   List lastMessages=[
     'Love youn Mom', //0
