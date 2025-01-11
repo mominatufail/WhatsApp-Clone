@@ -23,7 +23,7 @@ class ExpandedClass extends StatelessWidget {
     'Congratulations',
     'Kesi ho? ghar main sb kesay hain?',
     'Tabiyat kesi hy?',
-    'Send Haider',
+    'Send Haider now',
     'Assignment karli?',
     'Ok Fat Dr.'
   ];
