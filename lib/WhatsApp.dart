@@ -39,7 +39,7 @@ class ExpandedClass extends StatelessWidget {
     'assets/9.png',
     'assets/drrrr.jpeg'
    ];
-  
+
   List MessageCircle=[
     '2',
     '4',
@@ -52,6 +52,7 @@ class ExpandedClass extends StatelessWidget {
     '6',
     '2'
   ];
+  
   List Date=[
     '8:15 AM',
     '8:30 AM',
