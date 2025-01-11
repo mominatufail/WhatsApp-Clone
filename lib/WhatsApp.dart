@@ -172,6 +172,9 @@ class ExpandedClass extends StatelessWidget {
         // ),
         //----3rd expanded used for botton
         Expanded(
+
+
+          
           flex: 10,
           child:Container(
               color: Colors.green
