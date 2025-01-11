@@ -65,7 +65,7 @@ class ExpandedClass extends StatelessWidget {
     '5:00 PM',
     '8:45 PM'
   ];
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
