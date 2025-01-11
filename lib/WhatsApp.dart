@@ -52,7 +52,7 @@ class ExpandedClass extends StatelessWidget {
     '6',
     '2'
   ];
-  
+
   List Date=[
     '8:15 AM',
     '8:30 AM',
@@ -65,8 +65,7 @@ class ExpandedClass extends StatelessWidget {
     '5:00 PM',
     '8:45 PM'
   ];
-
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
