@@ -53,7 +53,7 @@ class ExpandedClass extends StatelessWidget {
     '2'
   ];
   List Date=[
-    '8:15 AM',
+    '8:15 M',
     '8:30 AM',
     '9:45 AM',
     '9:50 PM',
