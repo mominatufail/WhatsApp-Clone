@@ -19,7 +19,7 @@ class ExpandedClass extends StatelessWidget {
     'Love youn Mom', //0
     "How's Effu Baby?", //1
     'Ok!!', //2
-    'Parhai kar loo',
+    'Parhai kar lo',
     'Congratulations',
     'Kesi ho? ghar main sb kesay hain?',
     'Tabiyat kesi hy?',
