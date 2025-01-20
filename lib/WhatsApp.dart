@@ -70,15 +70,18 @@ class ExpandedClass extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Expanded Widget'),
+        //leading: Text('WhatsApp'),
+        title: Text('WhatsApp'),
+        backgroundColor: Colors.lightGreenAccent.shade400
+
       ),
       body: Column(children: [
         //---First Expanded used for top
-        Expanded(
-          flex: 10,
-          child:Container(
-            color: Colors.lightGreenAccent.shade400,
-          ),),
+        // Expanded(
+        //   //flex: 10,
+        //   child:Container(
+        //     color: Colors.lightGreenAccent.shade400,
+        //   ),),
         //   //---scnd Expanded used for chats
         Expanded(
             flex: 80,
@@ -171,12 +174,13 @@ class ExpandedClass extends StatelessWidget {
         //     ),
         // ),
         //----3rd expanded used for botton
-        Expanded(
-          flex: 10,
-          child:Container(
-              color: Colors.green
-          ),
-        ),
+        //Expanded(
+          //flex: 10,
+          //child:Container(
+        //       color: Colors.lightGreenAccent.shade400,
+        //   ),
+        // ),
+
       ]),
     );
   }
